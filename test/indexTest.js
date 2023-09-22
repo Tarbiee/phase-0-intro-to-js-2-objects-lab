@@ -1,6 +1,6 @@
 require ( './helpers.js' );
 
-describe('employees', function() {
+describe('employee', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
     beforeEach(function () {
       for (const key in employee) {
